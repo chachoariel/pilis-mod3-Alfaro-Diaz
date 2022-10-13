@@ -19,7 +19,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <Coordenadas></Coordenadas>
+                {<Coordenadas></Coordenadas>}
             </div>
         </div>
     )

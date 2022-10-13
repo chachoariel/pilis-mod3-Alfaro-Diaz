@@ -1,5 +1,5 @@
 .coord-form {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .coord-form .formulario {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 30%;
     padding: 3%;
     background-color: rgba(0,0,0,0.5);

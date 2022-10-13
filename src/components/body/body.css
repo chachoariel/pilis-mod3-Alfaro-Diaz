@@ -1,5 +1,5 @@
 .homeBody {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .home .title-home {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     margin-bottom: 2%;
     font-size: 1.1em;
@@ -27,11 +27,11 @@
 .img-body {
     margin: 25px 0px 25px 0px;
     width: 31%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     width: 100%;
 }

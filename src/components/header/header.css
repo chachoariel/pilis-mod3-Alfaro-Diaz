@@ -1,6 +1,6 @@
 .bg-home {
     min-height: 30vh;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url("../../assets/img/bg-clima01.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@
 }
 
 .logo {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     
     align-items: center;
@@ -30,9 +30,9 @@
     color: #cbdad5;
 }
 
-.menu{
+/* .menu{
     border: 1px solid green;
-}
+} */
 
 .menu ul {
     list-style-type: none;
@@ -46,7 +46,7 @@
     margin: 0 20px 0 20px;
     font-size: 1.2em;
     padding: 0 10px 0 10px;
-    border:1px solid green
+    /* border:1px solid green */
 }
 
 .menu ul li a{
