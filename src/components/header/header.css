@@ -1,0 +1,56 @@
+.bg-home {
+    min-height: 30vh;
+    border: 1px solid blue;
+    background-image: url("../../assets/img/bg-clima01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y:50%;
+}
+
+
+.nav-header {
+    display: flex;
+    /* border: 5px solid black; */
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    background-color: rgba(0, 0, 0, 0.664);
+    box-shadow: 0px 6px 26px 10px rgba(0,0,0,0.75);
+}
+
+.logo {
+    border: 1px solid blue;
+    display: flex;
+    
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #cbdad5;
+}
+
+.menu{
+    border: 1px solid green;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 20px 0 20px;
+    font-size: 1.2em;
+    padding: 0 10px 0 10px;
+    border:1px solid green
+}
+
+.menu ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #cbdad5;
+}

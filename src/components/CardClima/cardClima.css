@@ -1,0 +1,39 @@
+.card-clima {
+    width: 35%;
+    border: 1px solid black;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbdad5;
+}
+
+.card-body {
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: #89a7b1;
+}
+
+.descr-card {
+    border: 1px solid black;
+}
+
+.clima-card {
+    border: 1px solid black;
+}
+
+.delete {
+    border: 1px solid black;
+    /* width: 10%; */
+}
+
+.delete img {
+    width: 35px;
+}
+
+.delete img:hover {
+    cursor: pointer;
+}
