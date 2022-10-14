@@ -1,0 +1,19 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+header {
+    padding: 50px;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header {
+    padding: 0px;
+  }
+
