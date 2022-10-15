@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/pilis-mod3-Alfaro-Diaz/static/css/main.9d127efe.css",
-    "main.js": "/github.io/pilis-mod3-Alfaro-Diaz/static/js/main.0967ac70.js",
-    "static/js/787.dae3f68a.chunk.js": "/github.io/pilis-mod3-Alfaro-Diaz/static/js/787.dae3f68a.chunk.js",
-    "index.html": "/github.io/pilis-mod3-Alfaro-Diaz/index.html",
-    "main.9d127efe.css.map": "/github.io/pilis-mod3-Alfaro-Diaz/static/css/main.9d127efe.css.map",
-    "main.0967ac70.js.map": "/github.io/pilis-mod3-Alfaro-Diaz/static/js/main.0967ac70.js.map",
-    "787.dae3f68a.chunk.js.map": "/github.io/pilis-mod3-Alfaro-Diaz/static/js/787.dae3f68a.chunk.js.map"
+    "main.css": "/pilis-mod3-alfaro-diaz/static/css/main.397967fc.css",
+    "main.js": "/pilis-mod3-alfaro-diaz/static/js/main.a3373423.js",
+    "static/js/787.dae3f68a.chunk.js": "/pilis-mod3-alfaro-diaz/static/js/787.dae3f68a.chunk.js",
+    "index.html": "/pilis-mod3-alfaro-diaz/index.html",
+    "main.397967fc.css.map": "/pilis-mod3-alfaro-diaz/static/css/main.397967fc.css.map",
+    "main.a3373423.js.map": "/pilis-mod3-alfaro-diaz/static/js/main.a3373423.js.map",
+    "787.dae3f68a.chunk.js.map": "/pilis-mod3-alfaro-diaz/static/js/787.dae3f68a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d127efe.css",
-    "static/js/main.0967ac70.js"
+    "static/css/main.397967fc.css",
+    "static/js/main.a3373423.js"
   ]
 }
