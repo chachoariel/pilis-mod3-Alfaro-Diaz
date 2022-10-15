@@ -10,6 +10,7 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        
     }
 
 
@@ -19,7 +20,7 @@ const Login = () => {
                 <label>Ingrese su usuario</label>
                 <input type='text' onChange={e => setUserName(e.target.value)} value={userName}/>
                 <label>Ingrese la contraseña</label>
-                <input type='password' onChange={e => setUserName(e.target.value)} value={password} />
+                <input type='password' onChange={e => setPassword(e.target.value)} value={password} />
                 <input type="submit" value="Iniciar Sesión" />
 
             </form>
