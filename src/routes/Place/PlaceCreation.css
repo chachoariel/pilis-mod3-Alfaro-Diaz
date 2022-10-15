@@ -6,6 +6,16 @@ form {
     
 }
 
+span {
+    font-weight: bold;
+}
+
+.estilos {
+    border: 1px solid rgb(214, 206, 206);
+    padding: 2% 0;
+    background-color: rgb(255, 249, 249);
+}
+
 form .form-control {
     /* inputs (cajas para el texto)*/
 display: flex;
@@ -49,4 +59,6 @@ display: flex;
     background: #FFF;
     border: 1px solid #3314b9;
     color: #3816b1;
+    width: 20%;
+    transition: 1s;
 } 

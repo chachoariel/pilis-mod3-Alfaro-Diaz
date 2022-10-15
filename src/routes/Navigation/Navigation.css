@@ -1,11 +1,15 @@
 .navigation {
-    height: 100px;
+    /* height: 100px; */
+    padding: 1%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin-bottom: 25px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    border-radius: 10px;
+    /* border-radius: 0 0 30% 30%; */
     /* padding: 0 25px 0 25px; */
+    /* border: 1px solid rgba(0,0,0,0.75); */
+    box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.75);
   }
   .logo-container {
     height: 100px;
