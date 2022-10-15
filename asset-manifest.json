@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pilis-mod3-alfaro-diaz/static/css/main.397967fc.css",
-    "main.js": "/pilis-mod3-alfaro-diaz/static/js/main.a3373423.js",
-    "static/js/787.dae3f68a.chunk.js": "/pilis-mod3-alfaro-diaz/static/js/787.dae3f68a.chunk.js",
-    "index.html": "/pilis-mod3-alfaro-diaz/index.html",
-    "main.397967fc.css.map": "/pilis-mod3-alfaro-diaz/static/css/main.397967fc.css.map",
-    "main.a3373423.js.map": "/pilis-mod3-alfaro-diaz/static/js/main.a3373423.js.map",
-    "787.dae3f68a.chunk.js.map": "/pilis-mod3-alfaro-diaz/static/js/787.dae3f68a.chunk.js.map"
+    "main.css": "/ejemplo2/static/css/main.397967fc.css",
+    "main.js": "/ejemplo2/static/js/main.22aaa34e.js",
+    "static/js/787.dae3f68a.chunk.js": "/ejemplo2/static/js/787.dae3f68a.chunk.js",
+    "index.html": "/ejemplo2/index.html",
+    "main.397967fc.css.map": "/ejemplo2/static/css/main.397967fc.css.map",
+    "main.22aaa34e.js.map": "/ejemplo2/static/js/main.22aaa34e.js.map",
+    "787.dae3f68a.chunk.js.map": "/ejemplo2/static/js/787.dae3f68a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.397967fc.css",
-    "static/js/main.a3373423.js"
+    "static/js/main.22aaa34e.js"
   ]
 }
