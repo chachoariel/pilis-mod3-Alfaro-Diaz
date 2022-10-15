@@ -39,7 +39,7 @@ const PlaceCreation = () => {
   
   
   return (
-    <div className='sign-in-container'>
+    <div className='sign-in-container estilos'>
 
         <span>Complete el Formulario</span>
         <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -51,7 +51,7 @@ const PlaceCreation = () => {
           
           <input className="form-control" type="text" placeholder="Url imagen" {...register("url_photo", {required: true})} />
           
-          <input className="btn btn-light" type="submit" />
+          <input className="btn btn-light " type="submit" />
    
     </form>
     </div>

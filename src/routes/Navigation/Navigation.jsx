@@ -27,14 +27,18 @@ const Navigation = () => {
           <img src={logo} alt='No hay imagen' className='logo' />
         </Link>
         <div className='nav-links-container'>
-            {currentUser ? (
+            {/* {currentUser ? (
                 <Link className='nav-link' to='place/create'>
                     <MdAddLocationAlt className='add-place'/>
                     Nuevo Lugar
                 </Link>
             ) : (
                 <span className='nav-link'>Nuevo Lugar</span>
-            )}
+            )} */}
+
+            <Link className='nav-link' to='place/create'>
+                Nuevo Lugar
+            </Link>
 
             {currentUser ? (
                 <span className='nav-link' onClick={handleSignOut}>

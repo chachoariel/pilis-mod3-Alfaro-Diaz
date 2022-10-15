@@ -2,7 +2,7 @@
 // import {PlacesContext } from "../../contexts/PlacesContext";
 
 import "./Place.css";
- import { MdLocationOff } from "react-icons/md";
+ import { BsTrashFill } from "react-icons/bs";
 import { PlacesContext } from "../../context/PlacesContext";
 import { Link } from "react-router-dom";
 
@@ -29,26 +29,39 @@ const Place = ({place}) =>{
     return(
 
         <div className="place-container">
-        <div className="place">
-             <h3>{country}</h3> 
-          <div className="target">
-            <img className="imagen" src={url_photo} alt="" />
-            <div className="targetderecha" >
-               <h4>Latitud :  {latitude}</h4>
-              <h4>Longitud :  {longitude}</h4>
-              <h4>Temperatura  :{temperature}°C</h4>
-              <h4>Velocidad del viento : {windspeed}km/h</h4> 
+          <div className="card-container">
+            <div className="btn-eliminar">
+              <Link onClick={() => handlePlace()} value={country}>
+                  <BsTrashFill className="trash" />             
+              </Link>
             </div>
-          </div> 
-          
-        </div>
-        <div className="place-actions">
-          <div className="fav">
-             <Link onClick={() => handlePlace()} value={country}>
-                  <MdLocationOff className="trash" />
-                  <span className="delete">Delete</span>
-             
-             </Link>
+
+            <div className="body-place">
+              <div className="img-place">
+                <img  src={url_photo} alt="" />
+              </div>
+
+              <div className="info-place">
+                  <div className="title-place">
+                    <h3>{country}</h3>
+                  </div>
+
+                  <div className="text-place">
+                    <h4>Temperatura: {temperature}°C</h4>
+                    <h4>Velocidad del viento: {windspeed}km/h</h4><br />
+                    <p>Latitud: {latitude}</p>
+                    <p>Longitud: {longitude}</p>
+                  </div>
+
+                 
+              </div>
+
+            </div>
+          </div>
+
+
+
+        
             
              
 
@@ -57,9 +70,8 @@ const Place = ({place}) =>{
                     Nuevo Lugar
                 </Link> */}
     
-          </div>
+          
         </div>
-      </div>
     );
 
     
